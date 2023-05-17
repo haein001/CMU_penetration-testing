@@ -6,9 +6,9 @@ The assignment is based on _kali linux_.
 ## Step 1
 1. Scan the host for open ports.
 
-``
-nmap 10.20.160.10-150
-``
+    ``
+    nmap 10.20.160.10-150
+    ``
 
 2. 
 
