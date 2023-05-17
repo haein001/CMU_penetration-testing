@@ -6,7 +6,7 @@ _Fall 2022, Ethical Penetration Testing class_
 2. **Nessus**: an open-source network vulnerability scanner
 3. **Metasploit**: computer security project that provides data about security vulnerabilities and assists penetration testing
 
-The assignment is based on _kali linux_. 
+The assignments and final project are based on _kali linux_. 
 
 ## Assigments
 - [PWN challenge 1](https://github.com/haein001/CMU_penetration-testing/tree/69735350464e7b4b88eede348b337de66701a3e0/pwnchallenge1) : Konica Minolta FTP Utility
