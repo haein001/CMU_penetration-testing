@@ -8,5 +8,5 @@ For full executive report, see [PWNChallenge1_GabriellaAhn](https://github.com/h
     nmap 10.20.160.10-150
     ``
 
-2. 
+2. 10.20.160.41 host is found.
 
