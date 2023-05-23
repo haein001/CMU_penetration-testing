@@ -1,7 +1,6 @@
-# Assigment 1
+# Assigment 2
 For full executive report, see [PWNChallenge2_GabriellaAhn](https://github.com/haein001/CMU_penetration-testing/blob/3355250e0ba7ee6308910f5ad3355f6abd0d73bd/pwnchallenge2/PWNChallenge%232.pdf).
 
-## Step 1
 
 1. Conduct thorough scan of 10.20.160.63 and 10.20.160.112 that are found from inital scan of the scope.
    
