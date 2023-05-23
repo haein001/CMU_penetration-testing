@@ -17,7 +17,7 @@ For full executive report, see [PWNChallenge1_GabriellaAhn](https://github.com/h
 2. Conduct more thorough scan of 10.20.160.41.
    
     ``
-    nmap --A 10.20.160.41
+    nmap -A 10.20.160.41
     ``
     
     Port 21 is an open port for FTP from version of Konica Minolta FTP Utility. 
@@ -90,8 +90,8 @@ For full executive report, see [PWNChallenge1_GabriellaAhn](https://github.com/h
     background
     ``
     
-10.  Search ssh_login, to use the information from the SSH.bat.
-    
+10. Search ssh_login, to use the information from the SSH.bat.
+
     ``
     search ssh_login
     ``
@@ -118,12 +118,15 @@ For full executive report, see [PWNChallenge1_GabriellaAhn](https://github.com/h
     exploit
     ``
 
-12.  After succesfully logging into the machine, check the session you are in and go to the new session that is created.
+12. After succesfully logging into the machine, check the session you are in and go to the new session that is created.
 
-     ``
-    sessions -i
-    sessions -i (number)
     ``
-
+    sessions -i
+    ``
+    
+    ``
+    sessions -i (number of the session)
+    ``
+    
 13.  Then, use linux command to search the proof.txt.
 
