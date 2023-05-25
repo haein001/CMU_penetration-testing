@@ -85,5 +85,4 @@ vulnerabilities
     ``
     get uid
     ``
-    
-11  Then, use windows command to search the proof.txt.
+11. Then, use windows command to search the proof.txt.
